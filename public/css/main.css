@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+}
+
+.textfile {
+  /*  preserves line breaks in displaying text file */
+  white-space: pre-line; 
+}
+
+.file-contents {
+}
+
+.code-contents {
+
+}
+
+.code-list {
+  position: absolute;
+}
+
+.code-selection {
+  color: red;
+}
+
+.code-floater {
+  position: absolute;
+}
+
+#test1 {
+  color: green;
+}
+
+#test2 {
+  color: blue;
+}

@@ -1,0 +1,24 @@
+<tr>
+    <td>Select a File to Load:</td>
+    <td><input type="file" id="uploadfile"></td>
+    <td><button onclick="load_file_as_text()">Load Selected File</button><td>
+</tr>
+
+<div class="row">
+  <div class="file-contents large-8 columns">
+    <div class="textfile" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+  </div>
+  <div class="code-contents large-2 columns">
+  test
+  </div>
+  <div class="code-list large-2 columns">
+    <h4>Codes</h4>
+    <ul class="codes">
+    </ul>
+    <form class="add-code-form">
+      <input class="new-code" type="text" placeholder="Add code">
+      <input class="button" type="submit" value="Add">
+    </form>
+  </div>
+</div>
